@@ -7,7 +7,7 @@ if image is None:
 else:
     print("Image loaded successfully")
 
-    cv2.circle(image,(250,150), 50, (210,150), 5)
+    cv2.circle(image,(250,150), 50, (255,0,0), 5)
     cv2.imshow("Circle Drawing", image)
     cv2.waitKey(0)
     cv2.distroyAllWindows()
